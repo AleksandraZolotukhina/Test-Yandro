@@ -9,6 +9,7 @@
     - React
     - TypeScript
     - antd
+    - react-query
     - axios
     - dayjs
     
