@@ -1,0 +1,30 @@
+.button {
+    background-color: #113045e0;
+    color: #fff;
+
+    font-weight: 500;
+    font-size: 17px;
+
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    padding: 10px 20px;
+    transition: opacity linear 0.5s;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 780px){
+    .button {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .button {
+        padding: 10px 15px;
+    }
+}
